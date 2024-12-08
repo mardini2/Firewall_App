@@ -125,12 +125,3 @@ Contributing:
 Fork the repository and create a feature branch.
 Ensure all new features are unit tested.
 Open a pull request with a detailed description of the changes.
-
-
-
-Contact:
-For questions or issues, please contact:
-Emails:
-amardini5936@conestogac.on.ca
-umohini4648@conestogac.on.ca
-masim3384@conestogac.on.ca
