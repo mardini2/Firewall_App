@@ -1,11 +1,11 @@
 Firewall Application
 
-Overview
+Overview:
 The Firewall Application is a Python-based tool for simulating firewall functionality. It allows users to filter and process TCP/UDP packets based on predefined inbound and outbound rules. The project uses configuration files to define rules and logs all actions for traceability.
 
 
 
-Features
+Features:
 Rule-based filtering of network packets.
 Supports both TCP and UDP protocols.
 Configurable inbound and outbound rules via .ini files.
@@ -15,7 +15,7 @@ Logging for debugging and traceability.
 
 
 
-Project Structure
+Project Structure:
 src/: Contains the source code for the project.
 core.py: Main logic for processing packets and applying rules.
 rule_engine.py: Handles rule definitions and their application.
@@ -33,7 +33,7 @@ requirements.txt: Specifies project dependencies.
 
 
 
-Prerequisites
+Prerequisites:
 Python Version:
 Python 3.7 or higher is recommended.
 Dependencies:
@@ -59,7 +59,7 @@ If missing, create or configure them with appropriate rules.
 
 
 
-How It Works
+How It Works:
 
 Rules:
 Define inbound and outbound rules in .ini files. Example:
@@ -97,7 +97,7 @@ Modify packets/ files or .ini rules to customize behavior.
 
 
 
-Extending the Project
+Extending the Project:
 Add Support for IPv6:
 Extend the validate_ip function in util.py to handle IPv6.
 
@@ -109,7 +109,7 @@ Use tools like timeit to benchmark processing speed with large packet files.
 
 
 
-Troubleshooting
+Troubleshooting:
 Missing Dependencies:
 Reinstall dependencies using:
 pip install -r requirements.txt
@@ -121,14 +121,14 @@ Check if the .ini file contains a matching rule for the packet.
 
 
 
-Contributing
+Contributing:
 Fork the repository and create a feature branch.
 Ensure all new features are unit tested.
 Open a pull request with a detailed description of the changes.
 
 
 
-Contact
+Contact:
 For questions or issues, please contact:
 Emails:
 amardini5936@conestogac.on.ca
