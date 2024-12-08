@@ -1,10 +1,10 @@
 #core.py
 
-from src.helpers import load_packets
-from src.rule_engine import RuleEngine, apply_rule
-from src.tcp_packet import TCPPacket
-from src.udp_packet import UDPPacket
-from src.util import get_ip_address, get_port
+from helpers import load_packets
+from rule_engine import RuleEngine, apply_rule
+from tcp_packet import TCPPacket
+from udp_packet import UDPPacket
+from util import get_ip_address, get_port
 
 def process_packets(packets, packet_type, rule_engine):
     """
